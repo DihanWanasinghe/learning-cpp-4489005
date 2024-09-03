@@ -25,7 +25,7 @@ void swap(int& x, int& y){
 }
 
 int main(){
-    int a = 9, b;
+    int a = 9, b=5;
     b = square(a);
     std::cout << "a = " << a << ", b = " << b << std::endl;
     swap(&a, &b);
